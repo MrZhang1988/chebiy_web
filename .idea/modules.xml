@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chebiy-homepage-ch.iml" filepath="$PROJECT_DIR$/chebiy-homepage-ch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homepage-ch/homepage-ch.iml" filepath="$PROJECT_DIR$/homepage-ch/homepage-ch.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+.header-top-height{
+  width: 100%;
+  height: 40px;
+}
+.header-bt-height{
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid red;*/
+}
+.header-search{
+  background: #000000;
+  height: 100px;
+}
+.header-search input{
+  background: #000000;
+  height: 40px;
+  width: 60%;
+  border: 1px solid #363636;
+  border-radius: 5px;
+}
+.header-search button{
+  background: #363636;
+  height: 40px;
+  width: 60px;
+  border: 0px solid #363636;
+  border-radius: 5px;
+}
+/* 搜索框隐藏和显示 */
+.search-hide-show{
+  display: none;
+}
+/* 动画 */
+.myfir-stsearch{
+  position:relative;
+  animation:myfirst 2s;
+  -moz-animation:myfirst 2s; /* Firefox */
+  -webkit-animation:myfirst 2s; /* Safari and Chrome */
+  -o-animation:myfirst 2s; /* Opera */
+}
+@keyframes myfirst
+{
+  0%   {left:0px; top:-100px;}
+  100% {left:0px; top:0px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+  0%   {left:0px; top:-100px;}
+  100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  0%   {left:0px; top:-100px;}
+  100% {left:0px; top:0px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+  0%   {left:0px; top:-100px;}
+  100% {left:0px; top:0px;}
+}
